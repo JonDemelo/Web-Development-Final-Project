@@ -1,0 +1,166 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-family: arial, sans-Serif;
+	font-size: 13px;
+}
+
+#container{
+	width: 1024px;
+	position: relative;
+    margin: 20px auto;
+}
+
+#accountBody {
+
+}
+
+#inputArea {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	background-color: #d6e5f4;
+	padding: 10px;
+	width: 310px;
+	margin: 100px auto;
+}
+
+#inputArea input, 
+#inputArea textarea,
+#inputArea select
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 300px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background-color: #ffffff;
+	border: solid 1px #33677F;
+	overflow: hidden;
+}
+
+#inputArea input.submit 
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 15px;
+	display: block;
+	width: 100px;
+	color: #fff;
+	background-color: #5384c6;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+#inputArea input.submit:hover 
+{
+	position: relative;
+	top: 1px;
+	left: 1px;
+	background-color: #f00;
+}
+
+#inputArea span
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 11px;
+	display: block;
+	margin-top: -2px;
+	padding-bottom: 20px;
+	width: 300px;
+	color: #f50213;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box
+}
+
+#topBar {
+	width: 1024px;
+	height: 40px;
+	background-color: #2ba8dc;
+	margin-bottom: 10px;
+}
+
+#topBar a {
+	float:right;
+	padding: 5px;
+	padding-top: 10px;
+	color:#FFF;
+	text-decoration: none;
+}
+
+#topBar a:hover {
+	text-decoration: underline;
+}
+
+#mainContent {
+	width: 1024px;
+}
+
+#leftSide {
+	margin-right: 5px;
+	float: left;
+}
+
+#rightSide {
+	width: 80%;
+	height: 500px;
+	float: left;
+}
+
+#leftArrowDiv {
+	float:left;
+	width:15%;
+	height:100%;
+}
+
+#rightArrowDiv {
+	float: left;
+	width: 15%;
+	height: 100%;
+}
+
+#graphDiv {
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+
+.loading {
+	/* Centers the image in the div */
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+
+.labels {
+	color:#2ba8dc;
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.rollover {
+	margin-top: 175px;
+	margin-left: 30%;
+}
+
+.error {
+	color:#F00;
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+#datepicker {
+	height: 20px;
+	width: 100px;
+}
+
+::selection {
+    background-color: transparent;
+}
